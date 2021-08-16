@@ -69,3 +69,6 @@ nav:first-child {
     filter: brightness(90%);
 }
 
+#countdown {
+    font-size: 100px;
+}
