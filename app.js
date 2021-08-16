@@ -26,14 +26,13 @@ function getCurrentTime() {
     let today = new Date();
     let s_then = today.getSeconds();
     let m_then = today.getMinutes();
-    let h_then = today.getHours();
-    let timeData = {'seconds' : s_then, 'minutes' : m_then, 'hours' : h_then};
+    let timeData = {'seconds' : s_then, 'minutes' : m_then};
     return timeData;
 }
 
 
 function updateClock() {
-    time_now = setInterval()
+    //time_now = setInterval()
 }
 
 
