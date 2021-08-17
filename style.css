@@ -37,7 +37,8 @@ nav {
 
 nav:first-child {
     border-left: !important none;
-} /* How to get this to override the border declared below */
+} 
+/* How to get this to override the border declared below */
 
 .set-time {
     background-color: var(--nav-color);

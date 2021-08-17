@@ -18,7 +18,8 @@ navItems.forEach(item => item.addEventListener('click', (e) => {
 
 
 while (countdownTime !== '' || countdownTime !== '00:00') {
-    updateClock();
+    // updateClock();
+    console.log('yes');
 }
 
 
@@ -31,8 +32,9 @@ function getCurrentTime() {
 }
 
 
-function updateClock() {
-    //time_now = setInterval()
-}
+// function updateClock() {
+//     return 1;
+//     //time_now = setInterval()
+// }
 
 
