@@ -71,7 +71,13 @@ nav:first-child {
 }
 
 #countdown {
-    font-size: 100px;
+    font-size: 150px;
+}
+
+#return-time {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -85,3 +91,4 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
