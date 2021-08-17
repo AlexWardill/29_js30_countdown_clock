@@ -48,3 +48,11 @@ function displayTimeLeft(remaining) {
 }
 
 //timer(10);
+
+userInput.addEventListener('change', (e) => {
+    e.preventDefault();
+    if (e.target.value == '') {
+        return;
+    }
+    timer(e.target.value * 60);
+})
